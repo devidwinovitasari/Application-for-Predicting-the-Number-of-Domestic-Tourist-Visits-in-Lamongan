@@ -1,4 +1,5 @@
 🌊 Dashboard Prediksi Jumlah Kunjungan Wisatawan Kabupaten Lamongan
+
 📌 Deskripsi Aplikasi
 Aplikasi ini merupakan dashboard interaktif berbasis Streamlit yang digunakan untuk melakukan prediksi jumlah kunjungan wisatawan nusantara di Kabupaten Lamongan menggunakan metode hybrid:
 CEEMDAN–ELM yang dioptimasi dengan PSO
@@ -15,6 +16,7 @@ Aplikasi ini dirancang sebagai implementasi penelitian forecasting time series u
 4. Menggabungkan kembali hasil prediksi seluruh komponen
 5. Menghasilkan prediksi 12 bulan ke depan
 6. Menyediakan visualisasi interaktif untuk analisis hasil
+
 🧠 Metodologi yang Digunakan
 1️⃣ Preprocessing
 1. Membersihkan dan mempersiapkan data
@@ -28,10 +30,8 @@ Tujuannya untuk:
 1. Mengurangi non-linearitas
 2. Mengatasi non-stasioneritas
 3. Mempermudah proses pembelajaran model
-
 Library yang digunakan:
 PyEMD/EMD-Signal
-
 3️⃣ Modelling dengan ELM
 Setiap komponen IMF dilatih menggunakan:
 1. Single hidden layer
@@ -40,7 +40,6 @@ Setiap komponen IMF dilatih menggunakan:
 Kelebihan ELM:
 1. Training sangat cepat
 2. Cocok untuk time series non-linear
-   
 4️⃣ Optimasi dengan PSO
 1. Parameter model dioptimasi menggunakan:
 2. Particle Swarm Optimization
@@ -48,7 +47,6 @@ Library: pyswarms
 Tujuannya untuk:
 1. Meningkatkan akurasi model
 2. Meminimalkan error (MAPE)
-
 5️⃣ Evaluasi Model
 Model dievaluasi menggunakan:
 1. MAPE (Mean Absolute Percentage Error)
